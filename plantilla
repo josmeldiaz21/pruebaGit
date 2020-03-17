@@ -23,10 +23,9 @@ while not salir:
 	        print("El usuario solicitó salir.")
 	        salir = True
 	pantalla.fill(BLANCO)
-	desplazar_y = 0
 
 	# Selecciona la fuente. Fuente Default, tamaño 25 pt.
-	fuente = pygame.font.Font(None, 45)
+	fuente = pygame.font.Font(None, 25)
 	 
 	# Reproduce el texto. "True" significa texto suavizado(anti-aliased).
 	# El color es Negro. Recordemos que ya hemos definido anteriormente la variable NEGRO
